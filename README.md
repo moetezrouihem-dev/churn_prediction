@@ -8,7 +8,7 @@
 
 ## Overview
 
-ChurnRadar predicts whether a telecom customer is likely to churn based on 19 behavioral and demographic features. It goes beyond a basic notebook — the model is deployed as a live REST API with a fully interactive frontend, making it usable by anyone without any technical knowledge.
+Predicts whether a telecom customer is likely to churn based on 19 behavioral and demographic features. It goes beyond a basic notebook — the model is deployed as a live REST API with a fully interactive frontend, making it usable by anyone without any technical knowledge.
 
 ---
 
@@ -16,7 +16,7 @@ ChurnRadar predicts whether a telecom customer is likely to churn based on 19 be
 
 | Idle State | Prediction Result |
 |---|---|
-| Radar scanner animation, waiting for input | Risk level, probability arc, and churn verdict |
+|Waiting for input | Risk level, probability arc, and churn verdict |
 
 ---
 
