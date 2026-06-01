@@ -15,6 +15,15 @@ app = FastAPI(
     version="1.0.0"
 )
 
+from fastapi.middleware.cors import CORSMiddleware
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 class CustomerData(BaseModel):
     gender: str
     SeniorCitizen: int
@@ -79,11 +88,3 @@ def predict(customer: CustomerData):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
     
-from fastapi.middleware.cors import CORSMiddleware
-
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
