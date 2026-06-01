@@ -51,7 +51,10 @@ class PredictionResult(BaseModel):
     churn_probability: float
     risk_level: str
 
-
+@app.get("/")
+def root():
+    return {"message": "API is running"}
+    
 @app.get("/health")
 def health():
     return {"status": "healthy"}
