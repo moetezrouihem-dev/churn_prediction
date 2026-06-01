@@ -205,8 +205,8 @@ SMOTE generates synthetic minority samples, giving the model more diverse exampl
 
 **Moetez Rouihem** — CS Engineering Student at ENSI, Tunis
 
-[![GitHub](https://img.shields.io/badge/GitHub-YOURUSERNAME-181717?style=flat&logo=github)](https://github.com/YOURUSERNAME)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/YOURLINKEDIN)
+[![GitHub](https://img.shields.io/badge/GitHub-moetezrouihem-dev-181717?style=flat&logo=github)](https://github.com/moetezrouihem-dev)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/rouihem-moetez-10514b399/)
 
 ---
 
